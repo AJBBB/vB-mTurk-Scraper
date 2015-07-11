@@ -76,7 +76,11 @@ def run_through(silent):
                 if e_o_d is True:
                     write_file("forumlog.txt", "a+", link.get('href') + "\n")
 
+def finish():
+    print "Successfully scraped the forum..."
+
 
 if __name__ == "__main__":
     clear_update_htm(True)  # Set to false to print output to console
     run_through(True)  # Set to false to print output to console
+    finish()
