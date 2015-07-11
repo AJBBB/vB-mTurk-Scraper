@@ -1,7 +1,7 @@
 # vB-mTurk-Scraper
 Can scrape vBulletin forums for links to mTurk HITS
 
-Requires BeautifulSoup and requests
+Uses Python 2.* (Not 3 Compatible/Tested) Requires BeautifulSoup and requests
 
 This is a very very simple command-line script that guides you through setting the forum, todays thread number, which page you want to start from(counter), and which you want to end on. It outputs to the html file mturklinks and always overwrites it self.
 
