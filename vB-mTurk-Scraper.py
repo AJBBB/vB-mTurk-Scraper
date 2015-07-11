@@ -1,9 +1,11 @@
+#! /usr/bin/env python
+
 from bs4 import BeautifulSoup
 import requests
 
 
 def forum_sel():
-    forum = str(raw_input("Enter forum url:"))
+    forum = str(raw_input("Enter forum url(ex turkturk.com):"))
     return forum
 
 
