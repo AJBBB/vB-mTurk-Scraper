@@ -35,7 +35,7 @@ def get_end():
 
 def get_eod():
     # Should we print to a pastebin style log? Is it end of the day?
-    e_o_d = raw_input("End of day (True/False) :")
+    e_o_d = bool(raw_input("End of day (True/False) :"))
     return e_o_d
 
 
