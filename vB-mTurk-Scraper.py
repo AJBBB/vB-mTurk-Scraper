@@ -77,7 +77,7 @@ def run_through(silent):
                     write_file("forumlog.txt", "a+", link.get('href') + "\n")
 
 def finish():
-    print "Successfully scraped the forum..."
+    print "Successfully scraped the forum."
 
 
 if __name__ == "__main__":
