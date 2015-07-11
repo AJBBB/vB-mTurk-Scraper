@@ -7,4 +7,4 @@ This is a very simple command-line script that guides you through setting the fo
 
 There is also a question about End Of Day, if you type in True it will write to the forumlog.txt file with just the links so you can share that with people.
 
-This program is perfect for when you wake up, run it on the forum you like, and have an html file full of all the hits you missed today. (Note: It will include duplicates if people post and then quote the hits)
+This is perfect for when you wake up. Run it on the hits thread of any vBulletin mTurk forum you like, and you get an html file full of all the hits you missed. (Note: It will include duplicates if people post and then quote the hits)
