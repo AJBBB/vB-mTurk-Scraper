@@ -48,7 +48,7 @@ def write_file(file_name, write_mode, file_text):
 def clear_update_htm(silent):
     # Open the log, write over it with just css data
     write_file("mturklinks.html", "w",
-        "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"> ")
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"> \n")
     if silent is False:  # Check if we are running in silent or not
         print "Cleared & Wrote css line to the file"
 
