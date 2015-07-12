@@ -20,7 +20,7 @@ Information required to run program:
 <li>Number Of Pages To Scrape</li>
 </ul>
 
-This is a <strong>very very simple</strong> command-line script. Simply run "python vB-mTurk-Scraper.py" and it will guide you through setting the forum you want to scrape, entering todays thread number, which page you want to start from, and how many pages you want to go through.
+This is a <strong>very very simple</strong> command-line script. Simply run ```python vB-mTurk-Scraper.py``` and it will guide you through setting the forum you want to scrape, entering todays thread number, which page you want to start from, and how many pages you want to go through.
 
 Note: When entering the address to the forum, enter only the domain, ex: <strong>forum.com</strong>
 
