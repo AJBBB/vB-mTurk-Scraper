@@ -1,9 +1,14 @@
 # vB-mTurk-Scraper
 Can scrape vBulletin forums for links to mTurk HITS
 
-Uses Python 2.* (Not 3 Compatible/Tested) Requires BeautifulSoup and requests
+Uses Python 2.* (Not 3 Compatible/Tested) 
+<strong>Requires:</strong> BeautifulSoup and requests
 
-This is a very very simple command-line script that guides you through setting the forum you want to scrap, entering todays thread number, which page you want to start from, and how many pages you want to go through. It outputs to the html file mturklinks.html and always overwrites it self. (No need to worry about clearing the files)
+This is a very very simple command-line script. Simply run "python vB-mTurk-Scraper.py" and it will guide you through setting the forum you want to scrap, entering todays thread number, which page you want to start from, and how many pages you want to go through. Simply run "python vB-mTurk-Scraper.py"
+
+Note: When entering the address to the forum, enter only the domain, ex: <strong>forum.com</strong>
+
+It outputs all HITS to the html file mturklinks.html and always overwrites it self. (No need to worry about clearing the files)
 
 The final question asked is about writing to the forumlog.txt. If you answer with True it will write to the forumlog.txt file with just the links so you can share that plain text with people. Otherwise type in False. This always overwrites it self. (No need to worry about clearing the files)
 
