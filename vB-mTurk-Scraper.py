@@ -5,17 +5,20 @@ import requests
 
 
 def forum_sel():
+    # Defines the forum to scrape from
     forum = str(raw_input("Enter forum url(ex: turkturk.com): "))
     return forum
 
 
 def get_thread():
+    # Defines the thread number of todays HIT thread
     todays_thread = int(raw_input("Enter todays thread number: "))
     return todays_thread
 
 def create_url():
     selected_forum = forum_sel()
     todays_thread = get_thread()
+    # Builds the URL of the forum to scrape from
     forum_url = "%s/printthread.php?t=%s&pp=40&page=" % (selected_forum,
     todays_thread)
     return forum_url
