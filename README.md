@@ -6,7 +6,7 @@ Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
 <strong>Requires:</strong> BeautifulSoup and requests
 
 Information required to run program:
-<ul><li>HITS Thread Number(Changes Daily)</li>
+<ul><li>HITS Thread Number (Changes Daily: 5 digit number found in the thread URL) </li>
 <li>Forum URL</li>
 <li>Page To Start From</li>
 <li>Number Of Pages To Scrape</li>
