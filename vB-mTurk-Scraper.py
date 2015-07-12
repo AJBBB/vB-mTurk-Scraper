@@ -5,7 +5,7 @@ import requests
 
 
 def forum_sel():
-    forum = str(raw_input("Enter forum url(ex turkturk.com):"))
+    forum = str(raw_input("Enter forum url(ex turkturk.com): "))
     return forum
 
 
@@ -23,19 +23,19 @@ def create_url():
 
 def get_start():
     # Defines a counter from which page to start
-    page_number = int(raw_input("Enter page to start on:(Default: 0) "))
+    page_number = int(raw_input("Enter page to start on: (Default: 0): "))
     return page_number
 
 
 def get_end():
     # Defines the amount of pages to run through
-    last_page = int(raw_input("Enter # pages to run through / last page: "))
+    last_page = int(raw_input("Enter # pages to scrape hits from: "))
     return last_page
 
 
 def get_eod():
     # Should we print to a pastebin style log? Is it end of the day?
-    e_o_d = bool(raw_input("End of day (True/False) :"))
+    e_o_d = bool(raw_input("Write text log? (True/False): "))
     return e_o_d
 
 
