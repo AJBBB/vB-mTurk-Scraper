@@ -1,10 +1,11 @@
 # vB-mTurk-Scraper
 Can scrape vBulletin forums for links to mTurk HITS
 
-Uses <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)<br>
+Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
+<br>
 <strong>Requires:</strong> BeautifulSoup and requests
 
-This is a <strong>very very simple</strong> command-line script. Simply run "python vB-mTurk-Scraper.py" and it will guide you through setting the forum you want to scrap, entering todays thread number, which page you want to start from, and how many pages you want to go through.
+This is a <strong>very very simple</strong> command-line script. Simply run "python vB-mTurk-Scraper.py" and it will guide you through setting the forum you want to scrape, entering todays thread number, which page you want to start from, and how many pages you want to go through.
 
 Note: When entering the address to the forum, enter only the domain, ex: <strong>forum.com</strong>
 
