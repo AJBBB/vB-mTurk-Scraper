@@ -6,12 +6,12 @@ Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
 <strong>Requires:</strong> <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> and <a href="http://docs.python-requests.org/en/latest/">requests</a>
 
 To install BeautifulSoup run:
-pip install beautifulsoup4
-<strong>OR:</strong> easy_install beautifulsoup4
+```pip install beautifulsoup4```
+<strong>OR:</strong> ```easy_install beautifulsoup4```
 
 To install requests run:
-pip install requests
-<strong>OR:</strong> easy_install requests
+```pip install requests```
+<strong>OR:</strong> ```easy_install requests```
 
 Information required to run program:
 <ul><li>HITS Thread Number (Changes Daily: 5 digit number found in the thread URL) </li>
