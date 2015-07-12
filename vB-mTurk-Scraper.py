@@ -52,6 +52,12 @@ def clear_update_htm(silent):
     if silent is False:  # Check if we are running in silent or not
         print "Cleared & Wrote css line to the file"
 
+def clear_update_txt(silent):
+    # Open the log, write over it with just css data
+    write_file("forumlog.txt", "w", "")
+    if silent is False:  # Check if we are running in silent or not
+        print "Cleared forumlog.txt"
+
 
 def run_through(silent):
     forum_url = create_url()
@@ -82,5 +88,6 @@ def finish():
 
 if __name__ == "__main__":
     clear_update_htm(True)  # Set to false to print output to console
+    clear_update_txt(True)  # Set to false to print output to console
     run_through(True)  # Set to false to print output to console
     finish()
