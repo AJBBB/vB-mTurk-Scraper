@@ -32,6 +32,6 @@ This is perfect for when you wake up! Run it on the hits thread of any <strong>v
 
 This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin forum that allows you to read posts without being logged in should work.
 
-Note To Windows Users: Windows versions will be updated less frequently than the vB-mTurk-Scraper.py file.
+Note To Windows Users: Click "Download ZIP" on the right side of the page.  Windows versions will be updated less frequently than the vB-mTurk-Scraper.py file.
 
 MIT Licensed
