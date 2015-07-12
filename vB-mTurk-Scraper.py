@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 from bs4 import BeautifulSoup
-import requests
+from requests import get
 
 
 def forum_sel():
@@ -79,7 +79,7 @@ def run_through(silent):
         # Increment page to check
         page_number = page_number + 1
         # Build the URL with page_number to scrape from
-        hit_links = requests.get("http://" + str(forum_url) + str(page_number))
+        hit_links = get("http://" + str(forum_url) + str(page_number))
         data = hit_links.text
         soup = BeautifulSoup(data)
 
