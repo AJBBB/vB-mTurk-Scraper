@@ -36,7 +36,8 @@ This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin
 
 Note To Windows Users: Click "Download ZIP" on the right side of the page.  Windows versions will be updated less frequently than the vB-mTurk-Scraper.py file.
 
-Screenshots:<br>
+<h2>Screenshots:</h2><br>
+<br>
 Program Running In Windows:<br>
 <img src="http://i.gyazo.com/fd8e97ebeeb3ac1e7e1257e312ef0596.png">
 <br>
