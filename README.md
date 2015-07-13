@@ -1,5 +1,5 @@
 # vB-mTurk-Scraper v1.1
-Can scrape vBulletin forums for links to mTurk HITS
+Scrapes vBulletin forums for links to mTurk HITs
 
 Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
 <br>
@@ -14,7 +14,7 @@ To install requests run:
 <strong>OR:</strong> ```easy_install requests```
 
 Information required to run program:
-<ul><li>HITS Thread Number (Changes Daily: 5 digit number found in the thread URL) </li>
+<ul><li>HITs Thread Number (Changes Daily: 5 digit number found in the thread URL) </li>
 <li>Forum URL</li>
 <li>Page To Start From</li>
 <li>Number Of Pages To Scrape</li>
@@ -24,17 +24,17 @@ This is a <strong>very very simple</strong> command-line script. Simply run ```p
 
 Note: When entering the address to the forum, enter only the domain, ex: <strong>forum.com</strong>
 
-It outputs all HITS to the html file <strong>mturklinks.html</strong> and always overwrites it self. (No need to worry about clearing the files)
+It outputs all HITs to the html file <strong>mturklinks.html</strong> and always overwrites it self. (No need to worry about clearing the files)
 
 The final question asked is about writing to the <strong>forumlog.txt</strong>. If you answer with True it will write to the forumlog.txt file with just the links so you can share that plain text with people. Otherwise type in False. This always overwrites it self. (No need to worry about clearing the files)
 
-This is perfect for when you wake up! Run it on the hits thread of any <strong>vBulletin</strong> mTurk forum you like, and you get an html file full of all the hits you missed. (Note: It will include duplicates if people post and then quote the hits)
+This is perfect for when you wake up! Run it on the hits thread of any <strong>vBulletin</strong> mTurk forum you like, and you get an html file full of all the HITs you missed. (Note: It will include duplicates if people post and then quote the hits)
 
 This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin forum that allows you to read posts without being logged in should work.
 
 <strong>NOTE:</strong> When setting the number of pages to use, please make sure you are displaying 40 posts per page when checking the site.
 
-Note To Windows Users: Click "Download ZIP" on the right side of the page.  Windows versions will be updated less frequently than the vB-mTurk-Scraper.py file.
+Windows Users: Click "Download ZIP" on the right side of the page.
 
 <h2>Screenshots:</h2><br>
 <strong>Program Running In Windows:</strong><br>
