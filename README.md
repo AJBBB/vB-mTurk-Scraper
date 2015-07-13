@@ -40,7 +40,7 @@ Screenshots:
 Program Running In Windows:<br>
 <img src="http://i.gyazo.com/fd8e97ebeeb3ac1e7e1257e312ef0596.png">
 <br>
-HTML File:<br>
+HTML File(Note that visited HITs are red):<br>
 <img src="http://i.gyazo.com/bb116d8b2b83d60a25281c444c1a250d.png">
 
 
