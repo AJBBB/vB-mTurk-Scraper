@@ -1,4 +1,4 @@
-# vB-mTurk-Scraper
+# vB-mTurk-Scraper v1.1
 Can scrape vBulletin forums for links to mTurk HITS
 
 Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
