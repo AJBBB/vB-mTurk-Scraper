@@ -28,7 +28,7 @@ It outputs all HITs to the html file <strong>mturklinks.html</strong> and always
 
 The final question asked is about writing to the <strong>forumlog.txt</strong>. If you answer with True it will write to the forumlog.txt file with just the links so you can share that plain text with people. Otherwise type in False. This always overwrites it self. (No need to worry about clearing the files)
 
-This is perfect for when you wake up! Run it on the hits thread of any <strong>vBulletin</strong> mTurk forum you like, and you get an html file full of all the HITs you missed. (Note: It will include duplicates if people post and then quote the hits)
+This is perfect for when you wake up! Run it on the HITs thread of any <strong>vBulletin</strong> mTurk forum you like, and you get an html file full of all the HITs you missed. (Note: It will include duplicates if people post and then quote the HITs)
 
 This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin forum that allows you to read posts without being logged in should work.
 
