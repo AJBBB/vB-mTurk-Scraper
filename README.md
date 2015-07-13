@@ -32,16 +32,15 @@ This is perfect for when you wake up! Run it on the hits thread of any <strong>v
 
 This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin forum that allows you to read posts without being logged in should work.
 
-<b>NOTE:</b> When setting the number of pages to use, please make sure you are displaying 40 posts per page when checking the site.
+<strong>NOTE:</strong> When setting the number of pages to use, please make sure you are displaying 40 posts per page when checking the site.
 
 Note To Windows Users: Click "Download ZIP" on the right side of the page.  Windows versions will be updated less frequently than the vB-mTurk-Scraper.py file.
 
 <h2>Screenshots:</h2><br>
-<br>
-Program Running In Windows:<br>
+<strong>Program Running In Windows:</strong><br>
 <img src="http://i.gyazo.com/fd8e97ebeeb3ac1e7e1257e312ef0596.png">
 <br>
-HTML File(Note that visited HITs are red):<br>
+<strong>HTML File(Note that visited HITs are red):</strong><br>
 <img src="http://i.gyazo.com/bb116d8b2b83d60a25281c444c1a250d.png">
 
 
