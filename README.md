@@ -34,7 +34,7 @@ This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin
 
 <strong>NOTE:</strong> When setting the number of pages to use, please make sure you are displaying 40 posts per page when checking the site.
 
-Windows Users: Click "Download ZIP" on the right side of the page.
+<strong>Windows Users:</strong> Click "Download ZIP" on the right side of the page. Extract and run ```vB-mTurk-Scraper.exe```
 
 <h2>Screenshots:</h2><br>
 <strong>Program Running In Windows:</strong><br>
