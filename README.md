@@ -40,6 +40,9 @@ This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin
 <strong>Program Running In Windows:</strong><br>
 <img src="http://i.gyazo.com/fd8e97ebeeb3ac1e7e1257e312ef0596.png">
 <br>
+<strong>Program Running In Xubuntu:</strong></br>
+<img src="http://i.imgur.com/LTQJIZF.png">
+<br>
 <strong>HTML File(Note that visited HITs are red):</strong><br>
 <img src="http://i.gyazo.com/bb116d8b2b83d60a25281c444c1a250d.png">
 
