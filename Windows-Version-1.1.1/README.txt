@@ -24,4 +24,6 @@ This is perfect for when you wake up! Run it on the hits thread of any vBulletin
 
 This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin forum that allows you to read posts without being logged in should work.
 
+NOTE: When setting the number of pages to use, please make sure you are displaying 40 posts per page when checking the site.
+
 MIT Licensed
