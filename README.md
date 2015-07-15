@@ -16,7 +16,7 @@ To install requests run:
 Information required to run program:
 <ul><li>HITs Thread Number (Changes Daily: 5 digit number found in the thread URL) </li>
 <li>Forum URL</li>
-<li>Page To Start From</li>
+<li>Page To Start From (Default: 0)</li>
 <li>Number Of Pages To Scrape</li>
 </ul>
 
