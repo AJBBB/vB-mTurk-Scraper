@@ -1,7 +1,7 @@
 # vB-mTurk-Scraper v1.5
 Scrapes vBulletin forums for links to mTurk HITs
 
-v1.5 introduced an improved Windows version and there will no longer be duplicates in the logs.
+<strong>v1.5</strong> introduced an improved Windows version and there will no longer be duplicates in the logs.
 
 Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
 <br>
