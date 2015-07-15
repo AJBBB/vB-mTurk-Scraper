@@ -1,4 +1,4 @@
-# vB-mTurk-Scraper v1.1
+# vB-mTurk-Scraper v1.5
 Scrapes vBulletin forums for links to mTurk HITs
 
 Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
@@ -24,17 +24,17 @@ This is a <strong>very very simple</strong> command-line script. Simply run ```p
 
 Note: When entering the address to the forum, enter only the domain, ex: <strong>forum.com</strong>
 
-It outputs all HITs to the html file <strong>mturklinks.html</strong> and always overwrites it self. (No need to worry about clearing the files)
+It outputs all HITs to HITs/<strong>mturklinks-todaysdate.html</strong> by default.
+ 
+The final question asked is about writing to the HITs/<strong>forumlog-todaysdate.txt</strong> file. If you answer with True it will write to HITs/forumlog-todaysdate.txt file with just the links so you can share that plain text with people.
 
-The final question asked is about writing to the <strong>forumlog.txt</strong>. If you answer with True it will write to the forumlog.txt file with just the links so you can share that plain text with people. Otherwise type in False. This always overwrites it self. (No need to worry about clearing the files)
-
-This is perfect for when you wake up! Run it on the HITs thread of any <strong>vBulletin</strong> mTurk forum you like, and you get an html file full of all the HITs you missed. (Note: It will include duplicates if people post and then quote the HITs)
+This is perfect for when you wake up! Run it on the HITs thread of any <strong>vBulletin</strong> mTurk forum you like, and you get an html file full of all the HITs you missed. (Note: There will be NO duplicates as of <strong>v1.5</strong>)
 
 This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin forum that allows you to read posts without being logged in should work.
 
 <strong>NOTE:</strong> When setting the number of pages to use, please make sure you are displaying 40 posts per page when checking the site.
 
-<strong>Windows Users:</strong> Click "Download ZIP" on the right side of the page. Extract the Windows-Version-1.1.1 folder and run ```vB-mTurk-Scraper.exe```
+<strong>Windows Users:</strong> Click "Download ZIP" on the right side of the page. Extract the Windows-Version-1.5 folder and run ```vB-mTurk-Scraper.exe```
 
 <h2>Screenshots:</h2><br>
 <strong>Program Running In Windows:</strong><br>
