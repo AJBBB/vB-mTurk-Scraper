@@ -59,7 +59,7 @@ def clear_update_htm(silent):
     write_file("./HITs/mturklinks-" + str(todays_date) + ".html", "w",
         "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"> \n")
     if silent is False:  # Check if we are running in silent or not
-        print "Cleared & Wrote css line to the file"
+        print "Cleared & Wrote css to the file"
 
 
 def clear_update_txt(silent):
@@ -74,7 +74,7 @@ def run_through(silent):
     forum_url = create_url()  # Get the forum URL
     page_number = get_start()  # Get the page to start from
     last_page = get_end()  # Get how many pages to run through
-    end_of_day = get_eod()  # Get if the user wants to write to forumlog.txt
+    end_of_day = get_eod()  # Check if the user wants to write to forumlog.txt
 
     for pages in range(0, last_page):  # Go through all pages given
         page_number = page_number + 1  # Increment page to check
@@ -141,6 +141,6 @@ if __name__ == "__main__":
     clear_update_htm(True)  # Set to false to print output to console
     clear_update_txt(True)  # Set to false to print output to console
     run_through(False)  # Set to True to remove the current page output
-    clean_dupes_log(True)  # Set to False to leave duplicate files there
-    clean_dupes_html(True)  # Set to False to leave duplicate files there
+    clean_dupes_log(True)  # Set to False to leave duplicate links there
+    clean_dupes_html(True)  # Set to False to leave duplicate links there
     finish()  # Prints out a finished message
