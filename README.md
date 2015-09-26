@@ -5,7 +5,7 @@ Scrapes vBulletin forums for links to mTurk HITs
 
 Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
 <br>
-<strong>Requires:</strong> <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> and <a href="http://docs.python-requests.org/en/latest/">requests</a>
+<strong>Linux Requirements:</strong> <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> and <a href="http://docs.python-requests.org/en/latest/">requests</a>
 
 To install BeautifulSoup run:
 ```pip install beautifulsoup4```
