@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+# v1.5 - AJBBB
 
 from bs4 import BeautifulSoup
 from requests import get
@@ -40,7 +41,7 @@ def get_end():
 
 
 def get_eod():
-    """Defines if the user wants to write to forumlog.txt"""
+    """Checks if the user wants to write to forumlog.txt"""
     end_of_day = bool(raw_input("Write to forumlog.txt? (True/False): "))
     return end_of_day
 
@@ -101,7 +102,7 @@ def run_through(silent):
 
 def clean_dupes_log(delete_old):
     todays_date = date.today()
-    lines_seen = set()  # Create a place to store lines already seen
+    lines_seen = set()  # Create a place to store links already seen
     outfilename = "./HITs/forumlog-" + str(todays_date) + "-Clean.txt"
     infilename = "./HITs/forumlog-" + str(todays_date) + ".txt"
     outfile = open(outfilename, "w")
@@ -116,7 +117,7 @@ def clean_dupes_log(delete_old):
 
 def clean_dupes_html(delete_old):
     todays_date = date.today()
-    lines_seen = set()  # Create a place to store lines already seen
+    lines_seen = set()  # Create a place to store links already seen
     outfilename = "./HITs/mturklinks-" + str(todays_date) + "-Clean.html"
     infilename = "./HITs/mturklinks-" + str(todays_date) + ".html"
     outfile = open(outfilename, "w")
@@ -130,7 +131,7 @@ def clean_dupes_html(delete_old):
 
 
 def finish():
-    """Finish off the program by shutting off colorama & wait for user"""
+    """Wait for user to hit enter to close the program - Scraping Complete"""
     print("""Successfully scraped the forum.
         Your HITs can be found in the HITs folder.""")
     raw_input("Press enter to close the program...")
