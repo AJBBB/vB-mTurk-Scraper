@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>vB Forum mTurk Scraper by AYJAYY</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>vB Forum mTurk Scraper</h1>
+        <p>Scrapes vBulletin forums for links to mTurk HITS</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/AYJAYY/vB-mTurk-Scraper-1.5" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/AYJAYY/vB-mTurk-Scraper-1.5/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/AYJAYY/vB-mTurk-Scraper-1.5/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="vb-mturk-scraper-v15" class="anchor" href="#vb-mturk-scraper-v15" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>vB-mTurk-Scraper v1.5</h1>
+
+<p>Scrapes vBulletin forums for links to mTurk HITs</p>
+
+<p><strong>v1.5</strong> introduced an improved Windows version and there will no longer be duplicates in the logs.</p>
+
+<p>Written in: <strong>Python 2.*</strong> (Not 3 Compatible OR Tested)
+<br>
+<strong>Linux Requirements:</strong> <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> and <a href="http://docs.python-requests.org/en/latest/">requests</a></p>
+
+<p>To install BeautifulSoup run:
+<code>pip install beautifulsoup4</code>
+<strong>OR:</strong> <code>easy_install beautifulsoup4</code></p>
+
+<p>To install requests run:
+<code>pip install requests</code>
+<strong>OR:</strong> <code>easy_install requests</code></p>
+
+<hr>
+
+<p>Information required to run program:</p>
+
+<ul>
+<li>HITs Thread Number (Changes Daily: 5 digit number found in the thread URL) </li>
+<li>Forum URL</li>
+<li>Page To Start From (Default: 0)</li>
+<li>Number Of Pages To Scrape</li>
+</ul>
+
+<hr>
+
+<p>This is a <strong>very very simple</strong> command-line script. Simply run <code>python vB-mTurk-Scraper.py</code> and it will guide you through setting the forum you want to scrape, entering todays thread number, which page you want to start from, and how many pages you want to go through.</p>
+
+<p>Note: When entering the address to the forum, enter only the domain, ex: <strong>forum.com</strong></p>
+
+<p>It outputs all HITs to HITs/<strong>mturklinks-todaysdate.html</strong> by default.</p>
+
+<p>The final question asked is about writing to the HITs/<strong>forumlog-todaysdate.txt</strong> file. If you answer with True it will write to HITs/forumlog-todaysdate.txt file with just the links so you can share that plain text with people.</p>
+
+<p>This is perfect for when you wake up! Run it on the HITs thread of any <strong>vBulletin</strong> mTurk forum you like, and you get an html file full of all the HITs you missed. (Note: There will be NO duplicates as of <strong>v1.5</strong>)</p>
+
+<p>This has only been tested on Mturkforum.com and Turkernation.com - Any vBulletin forum that allows you to read posts without being logged in should work.</p>
+
+<p><strong>NOTE:</strong> When setting the number of pages to use, please make sure you are displaying 40 posts per page when checking the site.</p>
+
+<p><strong>Windows Users:</strong> Click "Download ZIP" on the right side of the page. Extract the Windows-Version-1.5 folder and run <code>vB-mTurk-Scraper.exe</code></p>
+
+<p>MIT Licensed</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/AYJAYY">AYJAYY</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
