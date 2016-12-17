@@ -1,4 +1,7 @@
 # vB-mTurk-Scraper v1.5
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f0321790f66f4f5193ad2371d8c478a1)](https://www.codacy.com/app/ajbbb/vB-mTurk-Scraper-1-5?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AYJAYY/vB-mTurk-Scraper-1.5&amp;utm_campaign=badger)
+
 Scrapes vBulletin forums for links to mTurk HITs
 
 <strong>v1.5</strong> introduced an improved Windows version and there will no longer be duplicates in the logs.
