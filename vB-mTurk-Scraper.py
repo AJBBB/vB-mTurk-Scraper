@@ -1,5 +1,6 @@
 #! /usr/bin/env python
-# v1.5 - AJBBB
+# v1.5 - AYJAYY
+# Sep 25 2015
 
 from bs4 import BeautifulSoup
 from requests import get
